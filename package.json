@@ -1,0 +1,30 @@
+{
+  "name": "zombot",
+  "version": "1.0.0",
+  "description": "Discord bot to manage zomboi dedicated server.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fillier/zombot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "zomboid"
+  ],
+  "author": "Clinton Fillier",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/fillier/zombot/issues"
+  },
+  "homepage": "https://github.com/fillier/zombot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.4"
+  }
+}

@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  Zombot:
+    image: zombot:latest
+    container_name: zombot
+    restart: unless-stopped
