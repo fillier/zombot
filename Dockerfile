@@ -1,7 +1,7 @@
 FROM node:latest
 
-LABEL org.opencontainers.image.description=Discord bot for managing Zomboid server vis RCON.
-LABEL org.opencontainers.image.version=v1.0.0
+LABEL org.opencontainers.image.description DESCRIPTION
+LABEL org.opencontainers.image.version v1.0.0
 
 # Create the bot's directory
 RUN mkdir -p /usr/src/bot
