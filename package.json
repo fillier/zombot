@@ -25,6 +25,7 @@
   "homepage": "https://github.com/fillier/zombot#readme",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.4"
+    "dotenv": "^16.4.4",
+    "rcon": "^1.1.0"
   }
 }
